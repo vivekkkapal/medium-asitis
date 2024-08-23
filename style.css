@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: GTSuper;
+    src: url("fonts/gt-super-400-normal.woff");
+}
+
+@font-face {
+    font-family: Sohne;
+    src: url("fonts/sohne-400-normal.woff");
+}
+
+body{
+    font-family: Sohne;
+}
+
