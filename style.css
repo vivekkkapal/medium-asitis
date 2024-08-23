@@ -1,35 +1,63 @@
 /* reset */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* fonts */
 @font-face {
-    font-family: GTSuper;
-    src: url("fonts/gt-super-400-normal.woff");
+  font-family: GTSuper, serif;
+  src: url("fonts/gt-super-400-normal.woff");
 }
 
 @font-face {
-    font-family: Sohne;
-    src: url("fonts/sohne-400-normal.woff");
+  font-family: Sohne, sans-serif;
+  src: url("fonts/sohne-400-normal.woff");
 }
 
 /* genral setting */
-body{
-    font-family: Sohne;
+body {
+  font-family: Sohne;
 }
 
-.container{
-    max-width: 90%;
-    margin: 0 auto;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
+.btn {
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  color: white;
+}
 
 /* header */
+header {
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  .md-hidden {
+    display: none;
+  }
+}
