@@ -1,10 +1,11 @@
+/* reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
+/* fonts */
 @font-face {
     font-family: GTSuper;
     src: url("fonts/gt-super-400-normal.woff");
@@ -15,6 +16,7 @@
     src: url("fonts/sohne-400-normal.woff");
 }
 
+/* genral setting */
 body{
     font-family: Sohne;
 }
@@ -29,3 +31,5 @@ a{
     color: inherit;
 }
 
+
+/* header */
